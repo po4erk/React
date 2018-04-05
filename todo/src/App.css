@@ -1,0 +1,41 @@
+.App{
+    background: url(images/Background.png);
+    width: 100vw;
+    height: 100vh;
+}
+.Knight{
+    position: relative;
+    background: url(images/PaperDoll.png);
+    height: 310px;
+    width: 372px;
+    z-index: 1;
+}
+.Stats{
+    background: url(images/Stats.png);
+    height: 272px;
+    width: 325px;
+    margin-top: -10px;
+    margin-left: 35px;
+}
+.Inventory{
+    background: url(images/Inventory.png);
+    height: 467px;
+    width: 352px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.Attack{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 270px;
+    left: 100px;
+}
+.Armor{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 253px;
+    left: 230px;
+}
